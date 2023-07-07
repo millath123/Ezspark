@@ -3,7 +3,7 @@ body{
     margin: 0%;
 }
 .formbackground-container {
-    background:url(/images/formimage.jpg) center;
+    background:url('https://upcdn.io/FW25bUx/raw/formimage.jpg') center;
 
    height: 100vh;
    
