@@ -3,7 +3,7 @@ body{
     margin: 0%;
 }
 .formbackground-container {
-    background:url('https://upcdn.io/FW25bUx/raw/formimage.jpg') center;
+    background:url(images/formimage.jpg) center;
 
    height: 100vh;
    
@@ -22,4 +22,9 @@ body{
 }
 .form tr td{
     padding: 7.5px;
+}
+.submit{
+    background-color: rgb(9, 9, 82);
+    color: white;
+    padding: 10px 20px 10px 20px;
 }
