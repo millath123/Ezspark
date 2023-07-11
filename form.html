@@ -20,7 +20,7 @@
                                         <label for="uname">Name</label>
                                     </td>
                                     <td>
-                                        <input type="text" id="uname" name="username">
+                                        <input type="text" id="uname">
                                     </td>
                                     <td>
                                         
@@ -29,16 +29,16 @@
                                 <tr>
                                     <td><label for="uemail">Email</label></td>
                                     <td>
-                                        <input type="text" id="uemail" name="usermail">
-                                        <button type="button">Check</button>
+                                        <input type="text" id="uemail">
+                                        <!-- <button type="button">Check</button> -->
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label for="age">Phone Number</label>
+                                        <label for="phonenum">Phone Number</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="userage" id="age" >
+                                        <input type="text"id="phonenum" >
                                     </td>
                                 </tr>
                                 <tr>
@@ -66,7 +66,7 @@
                                     </td>
                                     <td>
                                             <select id="city" name="city">
-                                                <option disabled selected>--Choose City--</option>
+                                                <option disabled selected>-Choose City-</option>
                                                     <optgroup >
                                                         <option>Manjeri</option>
                                                         <option>Edavanna</option>
@@ -82,7 +82,7 @@
                                         <label for="age">Pin Code</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="userage" id="age" >
+                                        <input type="text"id="age" >
                                     </td>
                                 </tr>
                                 
@@ -94,10 +94,10 @@
                                     </td>
                                     <td>
                                         <label>
-                                            <input type="radio" value="f" name="gender"> UPI</label>
+                                            <input type="radio" name="ab" value="m" > UPI</label>
                                             <label>
-                                            <input value="m" type="radio" name="gender">Bank Transfer</label>
-                                            <input value="m" type="radio" name="gender">Cash on Delivery</label>
+                                            <input value="m" name="ab" type="radio">Bank Transfer</label>
+                                            <input value="m" name="ab" type="radio">Cash on Delivery</label>
                                     </td>
                                 </tr>
                                 <tr>
@@ -111,8 +111,7 @@
                                 <tr>
                                     <td></td>
                                     <td>
-                                        <input type="submit" value="Submit">
-                                        <input type="reset">
+                                        <input class="submit" type="submit">
                                     </td>
                                 </tr>
                             </table>
