@@ -229,6 +229,7 @@ overflow: hidden;
     height: auto;
     width: 100%;
 } */
+
 .newarraivel12 img{
     width: 100%;
     display: block;
@@ -236,7 +237,7 @@ overflow: hidden;
     overflow: hidden;
 }
 .newarraivel12:hover img{
-    transform: scale(1.3);
+    transform: scale(.9);
   
 }
 .newarraivelsh1{
